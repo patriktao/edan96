@@ -1,0 +1,4896 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: s5
+mse: 1942510.569579286
+samples: 309"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: bmi
+mse: 86563.63265306121
+samples: 49"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: age
+mse: 30831.241379310348
+samples: 29"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: s6
+mse: 8157.5
+samples: 8"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+nextSplitAttribute: s1
+mse: 40.5
+samples: 2"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 143.0"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 134.0"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	4 -> 7
+	8 [label="
+id: 8
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	4 -> 8
+	9 [label="
+id: 9
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	4 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+nextSplitAttribute: s3
+mse: 1067.0
+samples: 4"]
+	3 -> 10
+	11 [label="
+id: 11
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 55.0"]
+	10 -> 11
+	12 [label="
+id: 12
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 71.0"]
+	10 -> 12
+	13 [label="
+id: 13
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 99.0"]
+	10 -> 13
+	14 [label="
+id: 14
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 85.0"]
+	10 -> 14
+	15 [label="
+id: 15
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	10 -> 15
+	16 [label="
+id: 16
+splitValue: 2
+nextSplitAttribute: sex
+mse: 1860.5
+samples: 2"]
+	3 -> 16
+	17 [label="
+id: 17
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 55.0"]
+	16 -> 17
+	18 [label="
+id: 18
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 116.0"]
+	16 -> 18
+	19 [label="
+id: 19
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	3 -> 19
+	20 [label="
+id: 20
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	3 -> 20
+	21 [label="
+id: 21
+splitValue: 1
+nextSplitAttribute: s6
+mse: 3622.923076923077
+samples: 13"]
+	2 -> 21
+	22 [label="
+id: 22
+splitValue: 0
+nextSplitAttribute: s3
+mse: 772.6666666666667
+samples: 3"]
+	21 -> 22
+	23 [label="
+id: 23
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	22 -> 23
+	24 [label="
+id: 24
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 70.0"]
+	22 -> 24
+	25 [label="
+id: 25
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 72.0"]
+	22 -> 25
+	26 [label="
+id: 26
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 37.0"]
+	22 -> 26
+	27 [label="
+id: 27
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	22 -> 27
+	28 [label="
+id: 28
+splitValue: 1
+nextSplitAttribute: s3
+mse: 1098.8
+samples: 5"]
+	21 -> 28
+	29 [label="
+id: 29
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	28 -> 29
+	30 [label="
+id: 30
+splitValue: 1
+nextSplitAttribute: sex
+mse: 60.5
+samples: 2"]
+	28 -> 30
+	31 [label="
+id: 31
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	30 -> 31
+	32 [label="
+id: 32
+splitValue: 1
+nextSplitAttribute: bp
+mse: 60.5
+samples: 2"]
+	30 -> 32
+	33 [label="
+id: 33
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	32 -> 33
+	34 [label="
+id: 34
+splitValue: 1
+nextSplitAttribute: s1
+mse: 60.5
+samples: 2"]
+	32 -> 34
+	35 [label="
+id: 35
+splitValue: 0
+nextSplitAttribute: s2
+mse: 60.5
+samples: 2"]
+	34 -> 35
+	36 [label="
+id: 36
+splitValue: 0
+nextSplitAttribute: s4
+mse: 60.5
+samples: 2"]
+	35 -> 36
+	37 [label="
+id: 37
+splitValue: 0
+mse: 60.5
+samples: 2
+avgValue: 77.5"]
+	36 -> 37
+	38 [label="
+id: 38
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	36 -> 38
+	39 [label="
+id: 39
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	36 -> 39
+	40 [label="
+id: 40
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	36 -> 40
+	41 [label="
+id: 41
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	36 -> 41
+	42 [label="
+id: 42
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	35 -> 42
+	43 [label="
+id: 43
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	35 -> 43
+	44 [label="
+id: 44
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	35 -> 44
+	45 [label="
+id: 45
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	35 -> 45
+	46 [label="
+id: 46
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	34 -> 46
+	47 [label="
+id: 47
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	34 -> 47
+	48 [label="
+id: 48
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	34 -> 48
+	49 [label="
+id: 49
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	34 -> 49
+	50 [label="
+id: 50
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	32 -> 50
+	51 [label="
+id: 51
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	32 -> 51
+	52 [label="
+id: 52
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	32 -> 52
+	53 [label="
+id: 53
+splitValue: 2
+nextSplitAttribute: bp
+mse: 364.5
+samples: 2"]
+	28 -> 53
+	54 [label="
+id: 54
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 63.0"]
+	53 -> 54
+	55 [label="
+id: 55
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 90.0"]
+	53 -> 55
+	56 [label="
+id: 56
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	53 -> 56
+	57 [label="
+id: 57
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	53 -> 57
+	58 [label="
+id: 58
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	53 -> 58
+	59 [label="
+id: 59
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 48.0"]
+	28 -> 59
+	60 [label="
+id: 60
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	28 -> 60
+	61 [label="
+id: 61
+splitValue: 2
+nextSplitAttribute: s1
+mse: 573.0
+samples: 4"]
+	21 -> 61
+	62 [label="
+id: 62
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 42.0"]
+	61 -> 62
+	63 [label="
+id: 63
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 59.0"]
+	61 -> 63
+	64 [label="
+id: 64
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 45.0"]
+	61 -> 64
+	65 [label="
+id: 65
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 72.0"]
+	61 -> 65
+	66 [label="
+id: 66
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	61 -> 66
+	67 [label="
+id: 67
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 39.0"]
+	21 -> 67
+	68 [label="
+id: 68
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	21 -> 68
+	69 [label="
+id: 69
+splitValue: 2
+nextSplitAttribute: s6
+mse: 11408.857142857141
+samples: 7"]
+	2 -> 69
+	70 [label="
+id: 70
+splitValue: 0
+nextSplitAttribute: bp
+mse: 1709.0
+samples: 4"]
+	69 -> 70
+	71 [label="
+id: 71
+splitValue: 0
+nextSplitAttribute: s1
+mse: 2.0
+samples: 2"]
+	70 -> 71
+	72 [label="
+id: 72
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 65.0"]
+	71 -> 72
+	73 [label="
+id: 73
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	71 -> 73
+	74 [label="
+id: 74
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 63.0"]
+	71 -> 74
+	75 [label="
+id: 75
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	71 -> 75
+	76 [label="
+id: 76
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	71 -> 76
+	77 [label="
+id: 77
+splitValue: 1
+nextSplitAttribute: sex
+mse: 338.0
+samples: 2"]
+	70 -> 77
+	78 [label="
+id: 78
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 114.0"]
+	77 -> 78
+	79 [label="
+id: 79
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 88.0"]
+	77 -> 79
+	80 [label="
+id: 80
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	70 -> 80
+	81 [label="
+id: 81
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	70 -> 81
+	82 [label="
+id: 82
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	70 -> 82
+	83 [label="
+id: 83
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 96.0"]
+	69 -> 83
+	84 [label="
+id: 84
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 178.0"]
+	69 -> 84
+	85 [label="
+id: 85
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 48.0"]
+	69 -> 85
+	86 [label="
+id: 86
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	69 -> 86
+	87 [label="
+id: 87
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	2 -> 87
+	88 [label="
+id: 88
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 75.0"]
+	2 -> 88
+	89 [label="
+id: 89
+splitValue: 1
+nextSplitAttribute: s3
+mse: 26055.733333333334
+samples: 15"]
+	1 -> 89
+	90 [label="
+id: 90
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	89 -> 90
+	91 [label="
+id: 91
+splitValue: 1
+nextSplitAttribute: age
+mse: 128.0
+samples: 2"]
+	89 -> 91
+	92 [label="
+id: 92
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 71.0"]
+	91 -> 92
+	93 [label="
+id: 93
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	91 -> 93
+	94 [label="
+id: 94
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	91 -> 94
+	95 [label="
+id: 95
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 55.0"]
+	91 -> 95
+	96 [label="
+id: 96
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	91 -> 96
+	97 [label="
+id: 97
+splitValue: 2
+nextSplitAttribute: age
+mse: 19619.5
+samples: 8"]
+	89 -> 97
+	98 [label="
+id: 98
+splitValue: 0
+nextSplitAttribute: s1
+mse: 12372.666666666668
+samples: 3"]
+	97 -> 98
+	99 [label="
+id: 99
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 43.0"]
+	98 -> 99
+	100 [label="
+id: 100
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 200.0"]
+	98 -> 100
+	101 [label="
+id: 101
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 113.0"]
+	98 -> 101
+	102 [label="
+id: 102
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	98 -> 102
+	103 [label="
+id: 103
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	98 -> 103
+	104 [label="
+id: 104
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 125.0"]
+	97 -> 104
+	105 [label="
+id: 105
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 31.0"]
+	97 -> 105
+	106 [label="
+id: 106
+splitValue: 3
+nextSplitAttribute: bp
+mse: 338.0
+samples: 2"]
+	97 -> 106
+	107 [label="
+id: 107
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	106 -> 107
+	108 [label="
+id: 108
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 104.0"]
+	106 -> 108
+	109 [label="
+id: 109
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 78.0"]
+	106 -> 109
+	110 [label="
+id: 110
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	106 -> 110
+	111 [label="
+id: 111
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	106 -> 111
+	112 [label="
+id: 112
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 80.0"]
+	97 -> 112
+	113 [label="
+id: 113
+splitValue: 3
+nextSplitAttribute: s2
+mse: 686.75
+samples: 4"]
+	89 -> 113
+	114 [label="
+id: 114
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 84.0"]
+	113 -> 114
+	115 [label="
+id: 115
+splitValue: 1
+nextSplitAttribute: age
+mse: 84.5
+samples: 2"]
+	113 -> 115
+	116 [label="
+id: 116
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	115 -> 116
+	117 [label="
+id: 117
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 52.0"]
+	115 -> 117
+	118 [label="
+id: 118
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 65.0"]
+	115 -> 118
+	119 [label="
+id: 119
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	115 -> 119
+	120 [label="
+id: 120
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	115 -> 120
+	121 [label="
+id: 121
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 52.0"]
+	113 -> 121
+	122 [label="
+id: 122
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	113 -> 122
+	123 [label="
+id: 123
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	113 -> 123
+	124 [label="
+id: 124
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 39.0"]
+	89 -> 124
+	125 [label="
+id: 125
+splitValue: 2
+nextSplitAttribute: age
+mse: 13304.666666666666
+samples: 3"]
+	1 -> 125
+	126 [label="
+id: 126
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	125 -> 126
+	127 [label="
+id: 127
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 201.0"]
+	125 -> 127
+	128 [label="
+id: 128
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 52.0"]
+	125 -> 128
+	129 [label="
+id: 129
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 69.0"]
+	125 -> 129
+	130 [label="
+id: 130
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	125 -> 130
+	131 [label="
+id: 131
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 95.0"]
+	1 -> 131
+	132 [label="
+id: 132
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 200.0"]
+	1 -> 132
+	133 [label="
+id: 133
+splitValue: 1
+nextSplitAttribute: bmi
+mse: 389150.4444444444
+samples: 99"]
+	0 -> 133
+	134 [label="
+id: 134
+splitValue: 0
+nextSplitAttribute: s4
+mse: 31800.625
+samples: 24"]
+	133 -> 134
+	135 [label="
+id: 135
+splitValue: 0
+nextSplitAttribute: s1
+mse: 20181.78947368421
+samples: 19"]
+	134 -> 135
+	136 [label="
+id: 136
+splitValue: 0
+nextSplitAttribute: sex
+mse: 1460.6666666666667
+samples: 3"]
+	135 -> 136
+	137 [label="
+id: 137
+splitValue: 0
+nextSplitAttribute: s3
+mse: 50.0
+samples: 2"]
+	136 -> 137
+	138 [label="
+id: 138
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	137 -> 138
+	139 [label="
+id: 139
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 142.0"]
+	137 -> 139
+	140 [label="
+id: 140
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 152.0"]
+	137 -> 140
+	141 [label="
+id: 141
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	137 -> 141
+	142 [label="
+id: 142
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	137 -> 142
+	143 [label="
+id: 143
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 101.0"]
+	136 -> 143
+	144 [label="
+id: 144
+splitValue: 1
+nextSplitAttribute: s6
+mse: 8732.0
+samples: 10"]
+	135 -> 144
+	145 [label="
+id: 145
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 158.0"]
+	144 -> 145
+	146 [label="
+id: 146
+splitValue: 1
+nextSplitAttribute: age
+mse: 219.0
+samples: 4"]
+	144 -> 146
+	147 [label="
+id: 147
+splitValue: 0
+nextSplitAttribute: sex
+mse: 32.0
+samples: 2"]
+	146 -> 147
+	148 [label="
+id: 148
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 69.0"]
+	147 -> 148
+	149 [label="
+id: 149
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 77.0"]
+	147 -> 149
+	150 [label="
+id: 150
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 59.0"]
+	146 -> 150
+	151 [label="
+id: 151
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 77.0"]
+	146 -> 151
+	152 [label="
+id: 152
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	146 -> 152
+	153 [label="
+id: 153
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	146 -> 153
+	154 [label="
+id: 154
+splitValue: 2
+nextSplitAttribute: age
+mse: 458.0
+samples: 4"]
+	144 -> 154
+	155 [label="
+id: 155
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	154 -> 155
+	156 [label="
+id: 156
+splitValue: 1
+nextSplitAttribute: s3
+mse: 158.0
+samples: 3"]
+	154 -> 156
+	157 [label="
+id: 157
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	156 -> 157
+	158 [label="
+id: 158
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 77.0"]
+	156 -> 158
+	159 [label="
+id: 159
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	156 -> 159
+	160 [label="
+id: 160
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 64.0"]
+	156 -> 160
+	161 [label="
+id: 161
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 60.0"]
+	156 -> 161
+	162 [label="
+id: 162
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	154 -> 162
+	163 [label="
+id: 163
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 87.0"]
+	154 -> 163
+	164 [label="
+id: 164
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	154 -> 164
+	165 [label="
+id: 165
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	144 -> 165
+	166 [label="
+id: 166
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 42.0"]
+	144 -> 166
+	167 [label="
+id: 167
+splitValue: 2
+nextSplitAttribute: age
+mse: 3082.833333333333
+samples: 6"]
+	135 -> 167
+	168 [label="
+id: 168
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 51.0"]
+	167 -> 168
+	169 [label="
+id: 169
+splitValue: 1
+nextSplitAttribute: s6
+mse: 200.66666666666669
+samples: 3"]
+	167 -> 169
+	170 [label="
+id: 170
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 115.0"]
+	169 -> 170
+	171 [label="
+id: 171
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 96.0"]
+	169 -> 171
+	172 [label="
+id: 172
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 111.0"]
+	169 -> 172
+	173 [label="
+id: 173
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	169 -> 173
+	174 [label="
+id: 174
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	169 -> 174
+	175 [label="
+id: 175
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 102.0"]
+	167 -> 175
+	176 [label="
+id: 176
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	167 -> 176
+	177 [label="
+id: 177
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 72.0"]
+	167 -> 177
+	178 [label="
+id: 178
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	135 -> 178
+	179 [label="
+id: 179
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	135 -> 179
+	180 [label="
+id: 180
+splitValue: 1
+nextSplitAttribute: s1
+mse: 569.0
+samples: 4"]
+	134 -> 180
+	181 [label="
+id: 181
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	180 -> 181
+	182 [label="
+id: 182
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 47.0"]
+	180 -> 182
+	183 [label="
+id: 183
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 79.0"]
+	180 -> 183
+	184 [label="
+id: 184
+splitValue: 3
+nextSplitAttribute: age
+mse: 32.0
+samples: 2"]
+	180 -> 184
+	185 [label="
+id: 185
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	184 -> 185
+	186 [label="
+id: 186
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 72.0"]
+	184 -> 186
+	187 [label="
+id: 187
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	184 -> 187
+	188 [label="
+id: 188
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 64.0"]
+	184 -> 188
+	189 [label="
+id: 189
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	184 -> 189
+	190 [label="
+id: 190
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	180 -> 190
+	191 [label="
+id: 191
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 183.0"]
+	134 -> 191
+	192 [label="
+id: 192
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	134 -> 192
+	193 [label="
+id: 193
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	134 -> 193
+	194 [label="
+id: 194
+splitValue: 1
+nextSplitAttribute: s1
+mse: 131066.79999999999
+samples: 45"]
+	133 -> 194
+	195 [label="
+id: 195
+splitValue: 0
+nextSplitAttribute: age
+mse: 19246.0
+samples: 4"]
+	194 -> 195
+	196 [label="
+id: 196
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 150.0"]
+	195 -> 196
+	197 [label="
+id: 197
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	195 -> 197
+	198 [label="
+id: 198
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 40.0"]
+	195 -> 198
+	199 [label="
+id: 199
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 219.0"]
+	195 -> 199
+	200 [label="
+id: 200
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 199.0"]
+	195 -> 200
+	201 [label="
+id: 201
+splitValue: 1
+nextSplitAttribute: age
+mse: 29660.85714285714
+samples: 14"]
+	194 -> 201
+	202 [label="
+id: 202
+splitValue: 0
+nextSplitAttribute: sex
+mse: 3528.0
+samples: 2"]
+	201 -> 202
+	203 [label="
+id: 203
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 144.0"]
+	202 -> 203
+	204 [label="
+id: 204
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 60.0"]
+	202 -> 204
+	205 [label="
+id: 205
+splitValue: 1
+nextSplitAttribute: sex
+mse: 648.0
+samples: 2"]
+	201 -> 205
+	206 [label="
+id: 206
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 97.0"]
+	205 -> 206
+	207 [label="
+id: 207
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 61.0"]
+	205 -> 207
+	208 [label="
+id: 208
+splitValue: 2
+nextSplitAttribute: sex
+mse: 1984.5
+samples: 2"]
+	201 -> 208
+	209 [label="
+id: 209
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 25.0"]
+	208 -> 209
+	210 [label="
+id: 210
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 88.0"]
+	208 -> 210
+	211 [label="
+id: 211
+splitValue: 3
+nextSplitAttribute: bp
+mse: 17697.428571428572
+samples: 7"]
+	201 -> 211
+	212 [label="
+id: 212
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	211 -> 212
+	213 [label="
+id: 213
+splitValue: 1
+nextSplitAttribute: sex
+mse: 456.0
+samples: 3"]
+	211 -> 213
+	214 [label="
+id: 214
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 65.0"]
+	213 -> 214
+	215 [label="
+id: 215
+splitValue: 1
+nextSplitAttribute: s2
+mse: 450.0
+samples: 2"]
+	213 -> 215
+	216 [label="
+id: 216
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	215 -> 216
+	217 [label="
+id: 217
+splitValue: 1
+nextSplitAttribute: s3
+mse: 450.0
+samples: 2"]
+	215 -> 217
+	218 [label="
+id: 218
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	217 -> 218
+	219 [label="
+id: 219
+splitValue: 1
+nextSplitAttribute: s4
+mse: 450.0
+samples: 2"]
+	217 -> 219
+	220 [label="
+id: 220
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	219 -> 220
+	221 [label="
+id: 221
+splitValue: 1
+nextSplitAttribute: s6
+mse: 450.0
+samples: 2"]
+	219 -> 221
+	222 [label="
+id: 222
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	221 -> 222
+	223 [label="
+id: 223
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	221 -> 223
+	224 [label="
+id: 224
+splitValue: 2
+mse: 450.0
+samples: 2
+avgValue: 68.0"]
+	221 -> 224
+	225 [label="
+id: 225
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	221 -> 225
+	226 [label="
+id: 226
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	221 -> 226
+	227 [label="
+id: 227
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	219 -> 227
+	228 [label="
+id: 228
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	219 -> 228
+	229 [label="
+id: 229
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	219 -> 229
+	230 [label="
+id: 230
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	217 -> 230
+	231 [label="
+id: 231
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	217 -> 231
+	232 [label="
+id: 232
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	217 -> 232
+	233 [label="
+id: 233
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	215 -> 233
+	234 [label="
+id: 234
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	215 -> 234
+	235 [label="
+id: 235
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	215 -> 235
+	236 [label="
+id: 236
+splitValue: 2
+nextSplitAttribute: s3
+mse: 2392.666666666667
+samples: 3"]
+	211 -> 236
+	237 [label="
+id: 237
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	236 -> 237
+	238 [label="
+id: 238
+splitValue: 1
+nextSplitAttribute: sex
+mse: 264.5
+samples: 2"]
+	236 -> 238
+	239 [label="
+id: 239
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 155.0"]
+	238 -> 239
+	240 [label="
+id: 240
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 132.0"]
+	238 -> 240
+	241 [label="
+id: 241
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 200.0"]
+	236 -> 241
+	242 [label="
+id: 242
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	236 -> 242
+	243 [label="
+id: 243
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	236 -> 243
+	244 [label="
+id: 244
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 77.0"]
+	211 -> 244
+	245 [label="
+id: 245
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	211 -> 245
+	246 [label="
+id: 246
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 66.0"]
+	201 -> 246
+	247 [label="
+id: 247
+splitValue: 2
+nextSplitAttribute: bp
+mse: 46931.80952380953
+samples: 21"]
+	194 -> 247
+	248 [label="
+id: 248
+splitValue: 0
+nextSplitAttribute: s3
+mse: 2314.666666666667
+samples: 3"]
+	247 -> 248
+	249 [label="
+id: 249
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	248 -> 249
+	250 [label="
+id: 250
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 128.0"]
+	248 -> 250
+	251 [label="
+id: 251
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 160.0"]
+	248 -> 251
+	252 [label="
+id: 252
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	248 -> 252
+	253 [label="
+id: 253
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 92.0"]
+	248 -> 253
+	254 [label="
+id: 254
+splitValue: 1
+nextSplitAttribute: age
+mse: 18412.85714285714
+samples: 7"]
+	247 -> 254
+	255 [label="
+id: 255
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 214.0"]
+	254 -> 255
+	256 [label="
+id: 256
+splitValue: 1
+nextSplitAttribute: s2
+mse: 162.0
+samples: 2"]
+	254 -> 256
+	257 [label="
+id: 257
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	256 -> 257
+	258 [label="
+id: 258
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 53.0"]
+	256 -> 258
+	259 [label="
+id: 259
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 71.0"]
+	256 -> 259
+	260 [label="
+id: 260
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	256 -> 260
+	261 [label="
+id: 261
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	256 -> 261
+	262 [label="
+id: 262
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 54.0"]
+	254 -> 262
+	263 [label="
+id: 263
+splitValue: 3
+nextSplitAttribute: sex
+mse: 128.0
+samples: 2"]
+	254 -> 263
+	264 [label="
+id: 264
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 81.0"]
+	263 -> 264
+	265 [label="
+id: 265
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 97.0"]
+	263 -> 265
+	266 [label="
+id: 266
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 89.0"]
+	254 -> 266
+	267 [label="
+id: 267
+splitValue: 2
+nextSplitAttribute: s6
+mse: 7957.714285714286
+samples: 7"]
+	247 -> 267
+	268 [label="
+id: 268
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 90.0"]
+	267 -> 268
+	269 [label="
+id: 269
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 91.0"]
+	267 -> 269
+	270 [label="
+id: 270
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 148.0"]
+	267 -> 270
+	271 [label="
+id: 271
+splitValue: 3
+nextSplitAttribute: age
+mse: 1742.0
+samples: 3"]
+	267 -> 271
+	272 [label="
+id: 272
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	271 -> 272
+	273 [label="
+id: 273
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 118.0"]
+	271 -> 273
+	274 [label="
+id: 274
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	271 -> 274
+	275 [label="
+id: 275
+splitValue: 3
+nextSplitAttribute: sex
+mse: 480.5
+samples: 2"]
+	271 -> 275
+	276 [label="
+id: 276
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 146.0"]
+	275 -> 276
+	277 [label="
+id: 277
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 177.0"]
+	275 -> 277
+	278 [label="
+id: 278
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	271 -> 278
+	279 [label="
+id: 279
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 81.0"]
+	267 -> 279
+	280 [label="
+id: 280
+splitValue: 3
+nextSplitAttribute: s3
+mse: 2098.6666666666665
+samples: 3"]
+	247 -> 280
+	281 [label="
+id: 281
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	280 -> 281
+	282 [label="
+id: 282
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 50.0"]
+	280 -> 282
+	283 [label="
+id: 283
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 104.0"]
+	280 -> 283
+	284 [label="
+id: 284
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 108.0"]
+	280 -> 284
+	285 [label="
+id: 285
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	280 -> 285
+	286 [label="
+id: 286
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 216.0"]
+	247 -> 286
+	287 [label="
+id: 287
+splitValue: 3
+nextSplitAttribute: s3
+mse: 626.75
+samples: 4"]
+	194 -> 287
+	288 [label="
+id: 288
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	287 -> 288
+	289 [label="
+id: 289
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	287 -> 289
+	290 [label="
+id: 290
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 65.0"]
+	287 -> 290
+	291 [label="
+id: 291
+splitValue: 3
+nextSplitAttribute: age
+mse: 4.5
+samples: 2"]
+	287 -> 291
+	292 [label="
+id: 292
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	291 -> 292
+	293 [label="
+id: 293
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 94.0"]
+	291 -> 293
+	294 [label="
+id: 294
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 97.0"]
+	291 -> 294
+	295 [label="
+id: 295
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	291 -> 295
+	296 [label="
+id: 296
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	291 -> 296
+	297 [label="
+id: 297
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 87.0"]
+	287 -> 297
+	298 [label="
+id: 298
+splitValue: 4
+nextSplitAttribute: age
+mse: 14280.5
+samples: 2"]
+	194 -> 298
+	299 [label="
+id: 299
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	298 -> 299
+	300 [label="
+id: 300
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	298 -> 300
+	301 [label="
+id: 301
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 84.0"]
+	298 -> 301
+	302 [label="
+id: 302
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 253.0"]
+	298 -> 302
+	303 [label="
+id: 303
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	298 -> 303
+	304 [label="
+id: 304
+splitValue: 2
+nextSplitAttribute: s3
+mse: 51710.30769230769
+samples: 13"]
+	133 -> 304
+	305 [label="
+id: 305
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 118.0"]
+	304 -> 305
+	306 [label="
+id: 306
+splitValue: 1
+nextSplitAttribute: age
+mse: 24112.0
+samples: 7"]
+	304 -> 306
+	307 [label="
+id: 307
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 246.0"]
+	306 -> 307
+	308 [label="
+id: 308
+splitValue: 1
+nextSplitAttribute: bp
+mse: 776.0
+samples: 3"]
+	306 -> 308
+	309 [label="
+id: 309
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 172.0"]
+	308 -> 309
+	310 [label="
+id: 310
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 210.0"]
+	308 -> 310
+	311 [label="
+id: 311
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 200.0"]
+	308 -> 311
+	312 [label="
+id: 312
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	308 -> 312
+	313 [label="
+id: 313
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	308 -> 313
+	314 [label="
+id: 314
+splitValue: 2
+nextSplitAttribute: sex
+mse: 9522.0
+samples: 2"]
+	306 -> 314
+	315 [label="
+id: 315
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 182.0"]
+	314 -> 315
+	316 [label="
+id: 316
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 44.0"]
+	314 -> 316
+	317 [label="
+id: 317
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	306 -> 317
+	318 [label="
+id: 318
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 178.0"]
+	306 -> 318
+	319 [label="
+id: 319
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 96.0"]
+	304 -> 319
+	320 [label="
+id: 320
+splitValue: 3
+nextSplitAttribute: s1
+mse: 11598.75
+samples: 4"]
+	304 -> 320
+	321 [label="
+id: 321
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	320 -> 321
+	322 [label="
+id: 322
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	320 -> 322
+	323 [label="
+id: 323
+splitValue: 2
+nextSplitAttribute: s6
+mse: 1908.6666666666667
+samples: 3"]
+	320 -> 323
+	324 [label="
+id: 324
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	323 -> 324
+	325 [label="
+id: 325
+splitValue: 1
+nextSplitAttribute: age
+mse: 0.5
+samples: 2"]
+	323 -> 325
+	326 [label="
+id: 326
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	325 -> 326
+	327 [label="
+id: 327
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 60.0"]
+	325 -> 327
+	328 [label="
+id: 328
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 59.0"]
+	325 -> 328
+	329 [label="
+id: 329
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	325 -> 329
+	330 [label="
+id: 330
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	325 -> 330
+	331 [label="
+id: 331
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 113.0"]
+	323 -> 331
+	332 [label="
+id: 332
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	323 -> 332
+	333 [label="
+id: 333
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	323 -> 333
+	334 [label="
+id: 334
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 191.0"]
+	320 -> 334
+	335 [label="
+id: 335
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	320 -> 335
+	336 [label="
+id: 336
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	304 -> 336
+	337 [label="
+id: 337
+splitValue: 3
+nextSplitAttribute: bp
+mse: 85271.73333333334
+samples: 15"]
+	133 -> 337
+	338 [label="
+id: 338
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 55.0"]
+	337 -> 338
+	339 [label="
+id: 339
+splitValue: 1
+nextSplitAttribute: s6
+mse: 7134.75
+samples: 4"]
+	337 -> 339
+	340 [label="
+id: 340
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	339 -> 340
+	341 [label="
+id: 341
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 184.0"]
+	339 -> 341
+	342 [label="
+id: 342
+splitValue: 2
+nextSplitAttribute: sex
+mse: 1682.0
+samples: 2"]
+	339 -> 342
+	343 [label="
+id: 343
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 129.0"]
+	342 -> 343
+	344 [label="
+id: 344
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 187.0"]
+	342 -> 344
+	345 [label="
+id: 345
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 85.0"]
+	339 -> 345
+	346 [label="
+id: 346
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	339 -> 346
+	347 [label="
+id: 347
+splitValue: 2
+nextSplitAttribute: s6
+mse: 26070.8
+samples: 5"]
+	337 -> 347
+	348 [label="
+id: 348
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 141.0"]
+	347 -> 348
+	349 [label="
+id: 349
+splitValue: 1
+nextSplitAttribute: s1
+mse: 8304.666666666668
+samples: 3"]
+	347 -> 349
+	350 [label="
+id: 350
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	349 -> 350
+	351 [label="
+id: 351
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 70.0"]
+	349 -> 351
+	352 [label="
+id: 352
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 147.0"]
+	349 -> 352
+	353 [label="
+id: 353
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 198.0"]
+	349 -> 353
+	354 [label="
+id: 354
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	349 -> 354
+	355 [label="
+id: 355
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 288.0"]
+	347 -> 355
+	356 [label="
+id: 356
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	347 -> 356
+	357 [label="
+id: 357
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	347 -> 357
+	358 [label="
+id: 358
+splitValue: 3
+nextSplitAttribute: s1
+mse: 19490.666666666668
+samples: 3"]
+	337 -> 358
+	359 [label="
+id: 359
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	358 -> 359
+	360 [label="
+id: 360
+splitValue: 1
+nextSplitAttribute: age
+mse: 450.0
+samples: 2"]
+	358 -> 360
+	361 [label="
+id: 361
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	360 -> 361
+	362 [label="
+id: 362
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	360 -> 362
+	363 [label="
+id: 363
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 293.0"]
+	360 -> 363
+	364 [label="
+id: 364
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 263.0"]
+	360 -> 364
+	365 [label="
+id: 365
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	360 -> 365
+	366 [label="
+id: 366
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 109.0"]
+	358 -> 366
+	367 [label="
+id: 367
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	358 -> 367
+	368 [label="
+id: 368
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	358 -> 368
+	369 [label="
+id: 369
+splitValue: 4
+nextSplitAttribute: age
+mse: 7938.0
+samples: 2"]
+	337 -> 369
+	370 [label="
+id: 370
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	369 -> 370
+	371 [label="
+id: 371
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 257.0"]
+	369 -> 371
+	372 [label="
+id: 372
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 131.0"]
+	369 -> 372
+	373 [label="
+id: 373
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	369 -> 373
+	374 [label="
+id: 374
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	369 -> 374
+	375 [label="
+id: 375
+splitValue: 4
+nextSplitAttribute: age
+mse: 7080.5
+samples: 2"]
+	133 -> 375
+	376 [label="
+id: 376
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	375 -> 376
+	377 [label="
+id: 377
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 259.0"]
+	375 -> 377
+	378 [label="
+id: 378
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	375 -> 378
+	379 [label="
+id: 379
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 140.0"]
+	375 -> 379
+	380 [label="
+id: 380
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	375 -> 380
+	381 [label="
+id: 381
+splitValue: 2
+nextSplitAttribute: bmi
+mse: 367850.8831168831
+samples: 77"]
+	0 -> 381
+	382 [label="
+id: 382
+splitValue: 0
+nextSplitAttribute: bp
+mse: 18708.0
+samples: 8"]
+	381 -> 382
+	383 [label="
+id: 383
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 162.0"]
+	382 -> 383
+	384 [label="
+id: 384
+splitValue: 1
+nextSplitAttribute: age
+mse: 728.6666666666667
+samples: 3"]
+	382 -> 384
+	385 [label="
+id: 385
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 185.0"]
+	384 -> 385
+	386 [label="
+id: 386
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 214.0"]
+	384 -> 386
+	387 [label="
+id: 387
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 178.0"]
+	384 -> 387
+	388 [label="
+id: 388
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	384 -> 388
+	389 [label="
+id: 389
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	384 -> 389
+	390 [label="
+id: 390
+splitValue: 2
+nextSplitAttribute: s3
+mse: 4466.666666666667
+samples: 3"]
+	382 -> 390
+	391 [label="
+id: 391
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	390 -> 391
+	392 [label="
+id: 392
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 83.0"]
+	390 -> 392
+	393 [label="
+id: 393
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 153.0"]
+	390 -> 393
+	394 [label="
+id: 394
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 63.0"]
+	390 -> 394
+	395 [label="
+id: 395
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	390 -> 395
+	396 [label="
+id: 396
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 170.0"]
+	382 -> 396
+	397 [label="
+id: 397
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	382 -> 397
+	398 [label="
+id: 398
+splitValue: 1
+nextSplitAttribute: bp
+mse: 84153.03448275862
+samples: 29"]
+	381 -> 398
+	399 [label="
+id: 399
+splitValue: 0
+nextSplitAttribute: age
+mse: 788.6666666666666
+samples: 3"]
+	398 -> 399
+	400 [label="
+id: 400
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 140.0"]
+	399 -> 400
+	401 [label="
+id: 401
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	399 -> 401
+	402 [label="
+id: 402
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	399 -> 402
+	403 [label="
+id: 403
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 131.0"]
+	399 -> 403
+	404 [label="
+id: 404
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 102.0"]
+	399 -> 404
+	405 [label="
+id: 405
+splitValue: 1
+nextSplitAttribute: s4
+mse: 31916.909090909092
+samples: 11"]
+	398 -> 405
+	406 [label="
+id: 406
+splitValue: 0
+nextSplitAttribute: s1
+mse: 4194.666666666666
+samples: 3"]
+	405 -> 406
+	407 [label="
+id: 407
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	406 -> 407
+	408 [label="
+id: 408
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 190.0"]
+	406 -> 408
+	409 [label="
+id: 409
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 168.0"]
+	406 -> 409
+	410 [label="
+id: 410
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 102.0"]
+	406 -> 410
+	411 [label="
+id: 411
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	406 -> 411
+	412 [label="
+id: 412
+splitValue: 1
+nextSplitAttribute: sex
+mse: 180.5
+samples: 2"]
+	405 -> 412
+	413 [label="
+id: 413
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 93.0"]
+	412 -> 413
+	414 [label="
+id: 414
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 74.0"]
+	412 -> 414
+	415 [label="
+id: 415
+splitValue: 2
+nextSplitAttribute: s6
+mse: 11893.333333333334
+samples: 6"]
+	405 -> 415
+	416 [label="
+id: 416
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 124.0"]
+	415 -> 416
+	417 [label="
+id: 417
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 202.0"]
+	415 -> 417
+	418 [label="
+id: 418
+splitValue: 2
+nextSplitAttribute: age
+mse: 1568.0
+samples: 2"]
+	415 -> 418
+	419 [label="
+id: 419
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 206.0"]
+	418 -> 419
+	420 [label="
+id: 420
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	418 -> 420
+	421 [label="
+id: 421
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 150.0"]
+	418 -> 421
+	422 [label="
+id: 422
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	418 -> 422
+	423 [label="
+id: 423
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	418 -> 423
+	424 [label="
+id: 424
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 168.0"]
+	415 -> 424
+	425 [label="
+id: 425
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 262.0"]
+	415 -> 425
+	426 [label="
+id: 426
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	405 -> 426
+	427 [label="
+id: 427
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	405 -> 427
+	428 [label="
+id: 428
+splitValue: 2
+nextSplitAttribute: s1
+mse: 10940.22222222222
+samples: 9"]
+	398 -> 428
+	429 [label="
+id: 429
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	428 -> 429
+	430 [label="
+id: 430
+splitValue: 1
+nextSplitAttribute: s3
+mse: 818.6666666666667
+samples: 3"]
+	428 -> 430
+	431 [label="
+id: 431
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 58.0"]
+	430 -> 431
+	432 [label="
+id: 432
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 94.0"]
+	430 -> 432
+	433 [label="
+id: 433
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 92.0"]
+	430 -> 433
+	434 [label="
+id: 434
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	430 -> 434
+	435 [label="
+id: 435
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	430 -> 435
+	436 [label="
+id: 436
+splitValue: 2
+nextSplitAttribute: age
+mse: 162.0
+samples: 2"]
+	428 -> 436
+	437 [label="
+id: 437
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	436 -> 437
+	438 [label="
+id: 438
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	436 -> 438
+	439 [label="
+id: 439
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 154.0"]
+	436 -> 439
+	440 [label="
+id: 440
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	436 -> 440
+	441 [label="
+id: 441
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 172.0"]
+	436 -> 441
+	442 [label="
+id: 442
+splitValue: 3
+nextSplitAttribute: s6
+mse: 200.66666666666669
+samples: 3"]
+	428 -> 442
+	443 [label="
+id: 443
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	442 -> 443
+	444 [label="
+id: 444
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 91.0"]
+	442 -> 444
+	445 [label="
+id: 445
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 111.0"]
+	442 -> 445
+	446 [label="
+id: 446
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	442 -> 446
+	447 [label="
+id: 447
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 100.0"]
+	442 -> 447
+	448 [label="
+id: 448
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 69.0"]
+	428 -> 448
+	449 [label="
+id: 449
+splitValue: 3
+nextSplitAttribute: s1
+mse: 24431.333333333332
+samples: 6"]
+	398 -> 449
+	450 [label="
+id: 450
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 124.0"]
+	449 -> 450
+	451 [label="
+id: 451
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 252.0"]
+	449 -> 451
+	452 [label="
+id: 452
+splitValue: 2
+nextSplitAttribute: age
+mse: 7874.0
+samples: 3"]
+	449 -> 452
+	453 [label="
+id: 453
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	452 -> 453
+	454 [label="
+id: 454
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	452 -> 454
+	455 [label="
+id: 455
+splitValue: 2
+nextSplitAttribute: sex
+mse: 312.5
+samples: 2"]
+	452 -> 455
+	456 [label="
+id: 456
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 66.0"]
+	455 -> 456
+	457 [label="
+id: 457
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 91.0"]
+	455 -> 457
+	458 [label="
+id: 458
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 185.0"]
+	452 -> 458
+	459 [label="
+id: 459
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	452 -> 459
+	460 [label="
+id: 460
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 190.0"]
+	449 -> 460
+	461 [label="
+id: 461
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	449 -> 461
+	462 [label="
+id: 462
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	398 -> 462
+	463 [label="
+id: 463
+splitValue: 2
+nextSplitAttribute: s3
+mse: 131409.11538461538
+samples: 26"]
+	381 -> 463
+	464 [label="
+id: 464
+splitValue: 0
+nextSplitAttribute: s6
+mse: 43366.25
+samples: 12"]
+	463 -> 464
+	465 [label="
+id: 465
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 235.0"]
+	464 -> 465
+	466 [label="
+id: 466
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 245.0"]
+	464 -> 466
+	467 [label="
+id: 467
+splitValue: 2
+nextSplitAttribute: age
+mse: 2282.75
+samples: 4"]
+	464 -> 467
+	468 [label="
+id: 468
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	467 -> 468
+	469 [label="
+id: 469
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 107.0"]
+	467 -> 469
+	470 [label="
+id: 470
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 151.0"]
+	467 -> 470
+	471 [label="
+id: 471
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 138.0"]
+	467 -> 471
+	472 [label="
+id: 472
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 173.0"]
+	467 -> 472
+	473 [label="
+id: 473
+splitValue: 3
+nextSplitAttribute: s1
+mse: 18081.199999999997
+samples: 5"]
+	464 -> 473
+	474 [label="
+id: 474
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	473 -> 474
+	475 [label="
+id: 475
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 111.0"]
+	473 -> 475
+	476 [label="
+id: 476
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 129.0"]
+	473 -> 476
+	477 [label="
+id: 477
+splitValue: 3
+nextSplitAttribute: age
+mse: 10046.0
+samples: 3"]
+	473 -> 477
+	478 [label="
+id: 478
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	477 -> 478
+	479 [label="
+id: 479
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	477 -> 479
+	480 [label="
+id: 480
+splitValue: 2
+nextSplitAttribute: bp
+mse: 684.5
+samples: 2"]
+	477 -> 480
+	481 [label="
+id: 481
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	480 -> 481
+	482 [label="
+id: 482
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	480 -> 482
+	483 [label="
+id: 483
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 259.0"]
+	480 -> 483
+	484 [label="
+id: 484
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 222.0"]
+	480 -> 484
+	485 [label="
+id: 485
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	480 -> 485
+	486 [label="
+id: 486
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 122.0"]
+	477 -> 486
+	487 [label="
+id: 487
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	477 -> 487
+	488 [label="
+id: 488
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	473 -> 488
+	489 [label="
+id: 489
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 277.0"]
+	464 -> 489
+	490 [label="
+id: 490
+splitValue: 1
+nextSplitAttribute: bp
+mse: 28460.75
+samples: 4"]
+	463 -> 490
+	491 [label="
+id: 491
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 90.0"]
+	490 -> 491
+	492 [label="
+id: 492
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 139.0"]
+	490 -> 492
+	493 [label="
+id: 493
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 225.0"]
+	490 -> 493
+	494 [label="
+id: 494
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 311.0"]
+	490 -> 494
+	495 [label="
+id: 495
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	490 -> 495
+	496 [label="
+id: 496
+splitValue: 2
+nextSplitAttribute: bp
+mse: 12732.75
+samples: 4"]
+	463 -> 496
+	497 [label="
+id: 497
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 115.0"]
+	496 -> 497
+	498 [label="
+id: 498
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	496 -> 498
+	499 [label="
+id: 499
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	496 -> 499
+	500 [label="
+id: 500
+splitValue: 3
+nextSplitAttribute: age
+mse: 392.0
+samples: 2"]
+	496 -> 500
+	501 [label="
+id: 501
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	500 -> 501
+	502 [label="
+id: 502
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	500 -> 502
+	503 [label="
+id: 503
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 265.0"]
+	500 -> 503
+	504 [label="
+id: 504
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 237.0"]
+	500 -> 504
+	505 [label="
+id: 505
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	500 -> 505
+	506 [label="
+id: 506
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 202.0"]
+	496 -> 506
+	507 [label="
+id: 507
+splitValue: 3
+nextSplitAttribute: age
+mse: 5438.0
+samples: 6"]
+	463 -> 507
+	508 [label="
+id: 508
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	507 -> 508
+	509 [label="
+id: 509
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 48.0"]
+	507 -> 509
+	510 [label="
+id: 510
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 88.0"]
+	507 -> 510
+	511 [label="
+id: 511
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 109.0"]
+	507 -> 511
+	512 [label="
+id: 512
+splitValue: 4
+nextSplitAttribute: s4
+mse: 2450.6666666666665
+samples: 3"]
+	507 -> 512
+	513 [label="
+id: 513
+splitValue: 0
+nextSplitAttribute: bp
+mse: 648.0
+samples: 2"]
+	512 -> 513
+	514 [label="
+id: 514
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	513 -> 514
+	515 [label="
+id: 515
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	513 -> 515
+	516 [label="
+id: 516
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 109.0"]
+	513 -> 516
+	517 [label="
+id: 517
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 73.0"]
+	513 -> 517
+	518 [label="
+id: 518
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	513 -> 518
+	519 [label="
+id: 519
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 143.0"]
+	512 -> 519
+	520 [label="
+id: 520
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	512 -> 520
+	521 [label="
+id: 521
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	512 -> 521
+	522 [label="
+id: 522
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	512 -> 522
+	523 [label="
+id: 523
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	463 -> 523
+	524 [label="
+id: 524
+splitValue: 3
+nextSplitAttribute: bp
+mse: 44883.55555555556
+samples: 9"]
+	381 -> 524
+	525 [label="
+id: 525
+splitValue: 0
+nextSplitAttribute: age
+mse: 3960.5
+samples: 2"]
+	524 -> 525
+	526 [label="
+id: 526
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	525 -> 526
+	527 [label="
+id: 527
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	525 -> 527
+	528 [label="
+id: 528
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 91.0"]
+	525 -> 528
+	529 [label="
+id: 529
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	525 -> 529
+	530 [label="
+id: 530
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 180.0"]
+	525 -> 530
+	531 [label="
+id: 531
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 85.0"]
+	524 -> 531
+	532 [label="
+id: 532
+splitValue: 2
+nextSplitAttribute: age
+mse: 4693.0
+samples: 4"]
+	524 -> 532
+	533 [label="
+id: 533
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	532 -> 533
+	534 [label="
+id: 534
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 178.0"]
+	532 -> 534
+	535 [label="
+id: 535
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 84.0"]
+	532 -> 535
+	536 [label="
+id: 536
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 151.0"]
+	532 -> 536
+	537 [label="
+id: 537
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 141.0"]
+	532 -> 537
+	538 [label="
+id: 538
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 275.0"]
+	524 -> 538
+	539 [label="
+id: 539
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 280.0"]
+	524 -> 539
+	540 [label="
+id: 540
+splitValue: 4
+nextSplitAttribute: age
+mse: 24485.2
+samples: 5"]
+	381 -> 540
+	541 [label="
+id: 541
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 274.0"]
+	540 -> 541
+	542 [label="
+id: 542
+splitValue: 1
+nextSplitAttribute: s6
+mse: 11400.5
+samples: 2"]
+	540 -> 542
+	543 [label="
+id: 543
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	542 -> 543
+	544 [label="
+id: 544
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	542 -> 544
+	545 [label="
+id: 545
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	542 -> 545
+	546 [label="
+id: 546
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 128.0"]
+	542 -> 546
+	547 [label="
+id: 547
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 279.0"]
+	542 -> 547
+	548 [label="
+id: 548
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	540 -> 548
+	549 [label="
+id: 549
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 341.0"]
+	540 -> 549
+	550 [label="
+id: 550
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 261.0"]
+	540 -> 550
+	551 [label="
+id: 551
+splitValue: 3
+nextSplitAttribute: bmi
+mse: 255098.10909090904
+samples: 55"]
+	0 -> 551
+	552 [label="
+id: 552
+splitValue: 0
+nextSplitAttribute: age
+mse: 60.5
+samples: 2"]
+	551 -> 552
+	553 [label="
+id: 553
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	552 -> 553
+	554 [label="
+id: 554
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	552 -> 554
+	555 [label="
+id: 555
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 200.0"]
+	552 -> 555
+	556 [label="
+id: 556
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	552 -> 556
+	557 [label="
+id: 557
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 189.0"]
+	552 -> 557
+	558 [label="
+id: 558
+splitValue: 1
+nextSplitAttribute: age
+mse: 40924.91666666667
+samples: 12"]
+	551 -> 558
+	559 [label="
+id: 559
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 101.0"]
+	558 -> 559
+	560 [label="
+id: 560
+splitValue: 1
+nextSplitAttribute: bp
+mse: 1512.5
+samples: 2"]
+	558 -> 560
+	561 [label="
+id: 561
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	560 -> 561
+	562 [label="
+id: 562
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 126.0"]
+	560 -> 562
+	563 [label="
+id: 563
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	560 -> 563
+	564 [label="
+id: 564
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 181.0"]
+	560 -> 564
+	565 [label="
+id: 565
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	560 -> 565
+	566 [label="
+id: 566
+splitValue: 2
+nextSplitAttribute: bp
+mse: 7638.0
+samples: 3"]
+	558 -> 566
+	567 [label="
+id: 567
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 116.0"]
+	566 -> 567
+	568 [label="
+id: 568
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 233.0"]
+	566 -> 568
+	569 [label="
+id: 569
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 209.0"]
+	566 -> 569
+	570 [label="
+id: 570
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	566 -> 570
+	571 [label="
+id: 571
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	566 -> 571
+	572 [label="
+id: 572
+splitValue: 3
+nextSplitAttribute: s1
+mse: 9211.2
+samples: 5"]
+	558 -> 572
+	573 [label="
+id: 573
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	572 -> 573
+	574 [label="
+id: 574
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 164.0"]
+	572 -> 574
+	575 [label="
+id: 575
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 206.0"]
+	572 -> 575
+	576 [label="
+id: 576
+splitValue: 3
+nextSplitAttribute: sex
+mse: 98.0
+samples: 2"]
+	572 -> 576
+	577 [label="
+id: 577
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 134.0"]
+	576 -> 577
+	578 [label="
+id: 578
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 120.0"]
+	576 -> 578
+	579 [label="
+id: 579
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 78.0"]
+	572 -> 579
+	580 [label="
+id: 580
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 283.0"]
+	558 -> 580
+	581 [label="
+id: 581
+splitValue: 2
+nextSplitAttribute: s6
+mse: 75457.5294117647
+samples: 17"]
+	551 -> 581
+	582 [label="
+id: 582
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 242.0"]
+	581 -> 582
+	583 [label="
+id: 583
+splitValue: 1
+nextSplitAttribute: age
+mse: 146.0
+samples: 3"]
+	581 -> 583
+	584 [label="
+id: 584
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	583 -> 584
+	585 [label="
+id: 585
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 258.0"]
+	583 -> 585
+	586 [label="
+id: 586
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 265.0"]
+	583 -> 586
+	587 [label="
+id: 587
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	583 -> 587
+	588 [label="
+id: 588
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 248.0"]
+	583 -> 588
+	589 [label="
+id: 589
+splitValue: 2
+nextSplitAttribute: s4
+mse: 17977.333333333332
+samples: 6"]
+	581 -> 589
+	590 [label="
+id: 590
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	589 -> 590
+	591 [label="
+id: 591
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 185.0"]
+	589 -> 591
+	592 [label="
+id: 592
+splitValue: 2
+nextSplitAttribute: age
+mse: 4273.0
+samples: 4"]
+	589 -> 592
+	593 [label="
+id: 593
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	592 -> 593
+	594 [label="
+id: 594
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 144.0"]
+	592 -> 594
+	595 [label="
+id: 595
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 139.0"]
+	592 -> 595
+	596 [label="
+id: 596
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 67.0"]
+	592 -> 596
+	597 [label="
+id: 597
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 144.0"]
+	592 -> 597
+	598 [label="
+id: 598
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 249.0"]
+	589 -> 598
+	599 [label="
+id: 599
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	589 -> 599
+	600 [label="
+id: 600
+splitValue: 3
+nextSplitAttribute: age
+mse: 708.6666666666666
+samples: 3"]
+	581 -> 600
+	601 [label="
+id: 601
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	600 -> 601
+	602 [label="
+id: 602
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	600 -> 602
+	603 [label="
+id: 603
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 265.0"]
+	600 -> 603
+	604 [label="
+id: 604
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 262.0"]
+	600 -> 604
+	605 [label="
+id: 605
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 296.0"]
+	600 -> 605
+	606 [label="
+id: 606
+splitValue: 4
+nextSplitAttribute: s3
+mse: 18276.0
+samples: 4"]
+	581 -> 606
+	607 [label="
+id: 607
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 292.0"]
+	606 -> 607
+	608 [label="
+id: 608
+splitValue: 1
+nextSplitAttribute: age
+mse: 6962.0
+samples: 2"]
+	606 -> 608
+	609 [label="
+id: 609
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	608 -> 609
+	610 [label="
+id: 610
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	608 -> 610
+	611 [label="
+id: 611
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 268.0"]
+	608 -> 611
+	612 [label="
+id: 612
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	608 -> 612
+	613 [label="
+id: 613
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 150.0"]
+	608 -> 613
+	614 [label="
+id: 614
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 142.0"]
+	606 -> 614
+	615 [label="
+id: 615
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	606 -> 615
+	616 [label="
+id: 616
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	606 -> 616
+	617 [label="
+id: 617
+splitValue: 3
+nextSplitAttribute: age
+mse: 46236.117647058825
+samples: 17"]
+	551 -> 617
+	618 [label="
+id: 618
+splitValue: 0
+nextSplitAttribute: sex
+mse: 2964.5
+samples: 2"]
+	617 -> 618
+	619 [label="
+id: 619
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 310.0"]
+	618 -> 619
+	620 [label="
+id: 620
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 233.0"]
+	618 -> 620
+	621 [label="
+id: 621
+splitValue: 1
+nextSplitAttribute: s2
+mse: 1064.75
+samples: 4"]
+	617 -> 621
+	622 [label="
+id: 622
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	621 -> 622
+	623 [label="
+id: 623
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 221.0"]
+	621 -> 623
+	624 [label="
+id: 624
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 220.0"]
+	621 -> 624
+	625 [label="
+id: 625
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 258.0"]
+	621 -> 625
+	626 [label="
+id: 626
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 220.0"]
+	621 -> 626
+	627 [label="
+id: 627
+splitValue: 2
+nextSplitAttribute: s3
+mse: 10897.333333333334
+samples: 6"]
+	617 -> 627
+	628 [label="
+id: 628
+splitValue: 0
+nextSplitAttribute: s1
+mse: 128.0
+samples: 2"]
+	627 -> 628
+	629 [label="
+id: 629
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 232.0"]
+	628 -> 629
+	630 [label="
+id: 630
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	628 -> 630
+	631 [label="
+id: 631
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	628 -> 631
+	632 [label="
+id: 632
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 248.0"]
+	628 -> 632
+	633 [label="
+id: 633
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	628 -> 633
+	634 [label="
+id: 634
+splitValue: 1
+nextSplitAttribute: s1
+mse: 1352.0
+samples: 2"]
+	627 -> 634
+	635 [label="
+id: 635
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	634 -> 635
+	636 [label="
+id: 636
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	634 -> 636
+	637 [label="
+id: 637
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	634 -> 637
+	638 [label="
+id: 638
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 173.0"]
+	634 -> 638
+	639 [label="
+id: 639
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 121.0"]
+	634 -> 639
+	640 [label="
+id: 640
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 202.0"]
+	627 -> 640
+	641 [label="
+id: 641
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 166.0"]
+	627 -> 641
+	642 [label="
+id: 642
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	627 -> 642
+	643 [label="
+id: 643
+splitValue: 3
+nextSplitAttribute: s2
+mse: 7829.0
+samples: 4"]
+	617 -> 643
+	644 [label="
+id: 644
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 281.0"]
+	643 -> 644
+	645 [label="
+id: 645
+splitValue: 1
+nextSplitAttribute: sex
+mse: 84.5
+samples: 2"]
+	643 -> 645
+	646 [label="
+id: 646
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 246.0"]
+	645 -> 646
+	647 [label="
+id: 647
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 259.0"]
+	645 -> 647
+	648 [label="
+id: 648
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	643 -> 648
+	649 [label="
+id: 649
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 164.0"]
+	643 -> 649
+	650 [label="
+id: 650
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	643 -> 650
+	651 [label="
+id: 651
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 332.0"]
+	617 -> 651
+	652 [label="
+id: 652
+splitValue: 4
+nextSplitAttribute: bp
+mse: 9119.714285714286
+samples: 7"]
+	551 -> 652
+	653 [label="
+id: 653
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	652 -> 653
+	654 [label="
+id: 654
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 346.0"]
+	652 -> 654
+	655 [label="
+id: 655
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 242.0"]
+	652 -> 655
+	656 [label="
+id: 656
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	652 -> 656
+	657 [label="
+id: 657
+splitValue: 4
+nextSplitAttribute: s3
+mse: 3695.2000000000003
+samples: 5"]
+	652 -> 657
+	658 [label="
+id: 658
+splitValue: 0
+nextSplitAttribute: sex
+mse: 24.5
+samples: 2"]
+	657 -> 658
+	659 [label="
+id: 659
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 270.0"]
+	658 -> 659
+	660 [label="
+id: 660
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 263.0"]
+	658 -> 660
+	661 [label="
+id: 661
+splitValue: 1
+nextSplitAttribute: s1
+mse: 488.0
+samples: 3"]
+	657 -> 661
+	662 [label="
+id: 662
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	661 -> 662
+	663 [label="
+id: 663
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 336.0"]
+	661 -> 663
+	664 [label="
+id: 664
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 308.0"]
+	661 -> 664
+	665 [label="
+id: 665
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 310.0"]
+	661 -> 665
+	666 [label="
+id: 666
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	661 -> 666
+	667 [label="
+id: 667
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	657 -> 667
+	668 [label="
+id: 668
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	657 -> 668
+	669 [label="
+id: 669
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	657 -> 669
+	670 [label="
+id: 670
+splitValue: 4
+nextSplitAttribute: bmi
+mse: 77208.75862068967
+samples: 29"]
+	0 -> 670
+	671 [label="
+id: 671
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 90.0"]
+	670 -> 671
+	672 [label="
+id: 672
+splitValue: 1
+nextSplitAttribute: s6
+mse: 12993.2
+samples: 5"]
+	670 -> 672
+	673 [label="
+id: 673
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	672 -> 673
+	674 [label="
+id: 674
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	672 -> 674
+	675 [label="
+id: 675
+splitValue: 2
+nextSplitAttribute: sex
+mse: 40.5
+samples: 2"]
+	672 -> 675
+	676 [label="
+id: 676
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 152.0"]
+	675 -> 676
+	677 [label="
+id: 677
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 161.0"]
+	675 -> 677
+	678 [label="
+id: 678
+splitValue: 3
+nextSplitAttribute: s1
+mse: 24.5
+samples: 2"]
+	672 -> 678
+	679 [label="
+id: 679
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	678 -> 679
+	680 [label="
+id: 680
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	678 -> 680
+	681 [label="
+id: 681
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	678 -> 681
+	682 [label="
+id: 682
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 248.0"]
+	678 -> 682
+	683 [label="
+id: 683
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 241.0"]
+	678 -> 683
+	684 [label="
+id: 684
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 281.0"]
+	672 -> 684
+	685 [label="
+id: 685
+splitValue: 2
+nextSplitAttribute: s2
+mse: 12360.0
+samples: 6"]
+	670 -> 685
+	686 [label="
+id: 686
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 273.0"]
+	685 -> 686
+	687 [label="
+id: 687
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 123.0"]
+	685 -> 687
+	688 [label="
+id: 688
+splitValue: 2
+nextSplitAttribute: age
+mse: 424.6666666666667
+samples: 3"]
+	685 -> 688
+	689 [label="
+id: 689
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	688 -> 689
+	690 [label="
+id: 690
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 229.0"]
+	688 -> 690
+	691 [label="
+id: 691
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	688 -> 691
+	692 [label="
+id: 692
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 225.0"]
+	688 -> 692
+	693 [label="
+id: 693
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 202.0"]
+	688 -> 693
+	694 [label="
+id: 694
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 196.0"]
+	685 -> 694
+	695 [label="
+id: 695
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	685 -> 695
+	696 [label="
+id: 696
+splitValue: 3
+nextSplitAttribute: bp
+mse: 11833.714285714286
+samples: 14"]
+	670 -> 696
+	697 [label="
+id: 697
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	696 -> 697
+	698 [label="
+id: 698
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	696 -> 698
+	699 [label="
+id: 699
+splitValue: 2
+nextSplitAttribute: age
+mse: 424.66666666666663
+samples: 3"]
+	696 -> 699
+	700 [label="
+id: 700
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	699 -> 700
+	701 [label="
+id: 701
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 272.0"]
+	699 -> 701
+	702 [label="
+id: 702
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 268.0"]
+	699 -> 702
+	703 [label="
+id: 703
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 295.0"]
+	699 -> 703
+	704 [label="
+id: 704
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	699 -> 704
+	705 [label="
+id: 705
+splitValue: 3
+nextSplitAttribute: age
+mse: 2326.8
+samples: 5"]
+	696 -> 705
+	706 [label="
+id: 706
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	705 -> 706
+	707 [label="
+id: 707
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 217.0"]
+	705 -> 707
+	708 [label="
+id: 708
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 277.0"]
+	705 -> 708
+	709 [label="
+id: 709
+splitValue: 3
+nextSplitAttribute: s1
+mse: 4.5
+samples: 2"]
+	705 -> 709
+	710 [label="
+id: 710
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	709 -> 710
+	711 [label="
+id: 711
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	709 -> 711
+	712 [label="
+id: 712
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 242.0"]
+	709 -> 712
+	713 [label="
+id: 713
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 245.0"]
+	709 -> 713
+	714 [label="
+id: 714
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	709 -> 714
+	715 [label="
+id: 715
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 220.0"]
+	705 -> 715
+	716 [label="
+id: 716
+splitValue: 4
+nextSplitAttribute: s2
+mse: 6145.333333333334
+samples: 6"]
+	696 -> 716
+	717 [label="
+id: 717
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	716 -> 717
+	718 [label="
+id: 718
+splitValue: 1
+nextSplitAttribute: age
+mse: 2712.6666666666665
+samples: 3"]
+	716 -> 718
+	719 [label="
+id: 719
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	718 -> 719
+	720 [label="
+id: 720
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 243.0"]
+	718 -> 720
+	721 [label="
+id: 721
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	718 -> 721
+	722 [label="
+id: 722
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 310.0"]
+	718 -> 722
+	723 [label="
+id: 723
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 303.0"]
+	718 -> 723
+	724 [label="
+id: 724
+splitValue: 2
+nextSplitAttribute: s3
+mse: 18.0
+samples: 2"]
+	716 -> 724
+	725 [label="
+id: 725
+splitValue: 0
+mse: 0.0
+samples: 1
+avgValue: 230.0"]
+	724 -> 725
+	726 [label="
+id: 726
+splitValue: 1
+samples: 0
+avgValue: nan"]
+	724 -> 726
+	727 [label="
+id: 727
+splitValue: 2
+mse: 0.0
+samples: 1
+avgValue: 236.0"]
+	724 -> 727
+	728 [label="
+id: 728
+splitValue: 3
+samples: 0
+avgValue: nan"]
+	724 -> 728
+	729 [label="
+id: 729
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	724 -> 729
+	730 [label="
+id: 730
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 252.0"]
+	716 -> 730
+	731 [label="
+id: 731
+splitValue: 4
+samples: 0
+avgValue: nan"]
+	716 -> 731
+	732 [label="
+id: 732
+splitValue: 4
+nextSplitAttribute: bp
+mse: 2166.0
+samples: 3"]
+	670 -> 732
+	733 [label="
+id: 733
+splitValue: 0
+samples: 0
+avgValue: nan"]
+	732 -> 733
+	734 [label="
+id: 734
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 306.0"]
+	732 -> 734
+	735 [label="
+id: 735
+splitValue: 2
+samples: 0
+avgValue: nan"]
+	732 -> 735
+	736 [label="
+id: 736
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 258.0"]
+	732 -> 736
+	737 [label="
+id: 737
+splitValue: 4
+mse: 0.0
+samples: 1
+avgValue: 243.0"]
+	732 -> 737
+}
